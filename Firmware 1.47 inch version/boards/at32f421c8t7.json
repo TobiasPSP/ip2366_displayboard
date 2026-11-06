@@ -1,0 +1,23 @@
+{
+  "build": {
+    "cpu": "cortex-m4",
+    "f_cpu": "8000000L",
+    "mcu": "at32f421c8t7"
+  },
+  "debug": {
+    "jlink_device": "AT32F421C8T7",
+    "openocd_target": "stm32f4x"
+  },
+  "frameworks": [],
+  "name": "AT32F421C8T7",
+  "url": "https://www.arterychip.com/",
+  "upload": {
+    "maximum_ram_size": 16384,
+    "maximum_size": 65536,
+    "protocol": "custom",
+    "protocols": [
+      "custom"
+    ]
+  },
+  "vendor": "Artery"
+}

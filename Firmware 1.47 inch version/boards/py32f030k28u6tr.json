@@ -1,0 +1,22 @@
+{
+  "build": {
+    "cpu": "cortex-m0plus",
+    "f_cpu": "24000000L",
+    "mcu": "py32f030k28u6tr"
+  },
+  "debug": {
+    "jlink_device": "PY32F030x8"
+  },
+  "frameworks": [],
+  "name": "PY32F030K28U6TR",
+  "upload": {
+    "maximum_ram_size": 8192,
+    "maximum_size": 65536,
+    "protocol": "custom",
+    "protocols": [
+      "custom"
+    ]
+  },
+  "url": "https://www.puyasemi.com/",
+  "vendor": "Puya"
+}
